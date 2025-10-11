@@ -14,6 +14,18 @@
   display: none;
 }
 
+.flex{
+  display: flex;
+}
+
+.gap-1{
+  gap: 1rem;
+}
+
+.grid{
+  display: grid;
+}
+
 .container{
   --max-width: 375px;
   max-width: var(--max-width);  
