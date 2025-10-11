@@ -35,6 +35,20 @@
   --py-xl: 3rem;
 }
 
+@media (width >= 80em){
+  :root{
+    --fs-2xl: 4rem;
+    --fs-xl: 3rem;
+    --fs-lg: 2rem;
+
+    --px-lg: 2rem;
+
+    --py-base: 1.5rem;
+    --py-lg: 2rem;
+    --py-xl: 5rem;
+  }
+}
+
 html{
   font-family: var(--ff-sans);
   font-size: var(--fs-base);
@@ -66,18 +80,9 @@ h3{
   font-size: var(--fs-lg);
 }
 
-@media (width >= 80em){
-  :root{
-    --fs-2xl: 4rem;
-    --fs-xl: 3rem;
-    --fs-lg: 2rem;
-
-    --px-lg: 2rem;
-
-    --py-base: 1.5rem;
-    --py-lg: 2rem;
-    --py-xl: 5rem;
-  }
+img{
+  max-width: 100%;
+  display: inline-block;
 }
 
 a{

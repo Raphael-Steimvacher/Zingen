@@ -14,6 +14,10 @@
   display: none;
 }
 
+.smartphone-only{
+  display: initial;
+}
+
 .flex{
   display: flex;
 }
@@ -49,6 +53,11 @@
 
   .desktop-only{
     display: initial;
+  }
+
+
+  .smartphone-only{
+    display: none;
   }
 
   .even-columns{

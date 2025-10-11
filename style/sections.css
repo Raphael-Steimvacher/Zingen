@@ -1,0 +1,29 @@
+section{
+  & header{
+    & strong{
+      font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
+      color: var(--brand-color-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.08rem;
+    }
+
+    & h2{
+      margin-top: .5rem;
+    }
+  }
+  & p{
+    margin-top: .5rem;
+    color: var(--text-color-secondary);
+  }
+}
+#about{
+  background-color: var(--surface-color);
+}
+
+@media (width >= 80em){
+  #about{
+    display: flex;
+    gap: 2rem;
+    padding-inline: 2rem;
+  }    
+}
