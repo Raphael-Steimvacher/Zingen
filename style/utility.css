@@ -10,6 +10,10 @@
   padding-block: var(--py-xl);
 }
 
+.px-lg{
+  padding-inline: var(--px-lg);
+}
+
 .desktop-only{
   display: none;
 }
@@ -28,6 +32,10 @@
 
 .gap-1{
   gap: 1rem;
+}
+
+.gap-1-5{
+  gap: 1.5rem;
 }
 
 .grid{
