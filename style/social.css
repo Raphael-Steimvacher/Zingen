@@ -9,30 +9,30 @@ a.social{
   background-clip: initial;
 
   &[aria-label="tiktok"]{
-    --bg-img: url(../assets/tiktok.svg);
+    --bg-img: url(../assets/icons/tiktok.svg);
     &:hover{
-      --bg-img: url(../assets/tiktok-hover.svg);
+      --bg-img: url(../assets/icons/tiktok-hover.svg);
     }
   }
 
   &[aria-label="instagram"]{
-    --bg-img: url(../assets/instagram.svg);
+    --bg-img: url(../assets/icons/instagram.svg);
     &:hover{
-      --bg-img: url(../assets/instagram-hover.svg);
+      --bg-img: url(../assets/icons/instagram-hover.svg);
     }
   }
 
   &[aria-label="twitter"]{
-    --bg-img: url(../assets/twitter.svg);
+    --bg-img: url(../assets/icons/twitter.svg);
     &:hover{
-      --bg-img: url(../assets/twitter-hover.svg);
+      --bg-img: url(../assets/icons/twitter-hover.svg);
     }
   }
 
   &[aria-label="discord"]{
-    --bg-img: url(../assets/discord.svg);
+    --bg-img: url(../assets/icons/discord.svg);
     &:hover{
-      --bg-img: url(../assets/discord-hover.svg);
+      --bg-img: url(../assets/icons/discord-hover.svg);
     }
   }
 }
